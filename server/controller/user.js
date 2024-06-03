@@ -49,8 +49,8 @@ const registerController=async(req,res)=>{
             const transporter=nodemailer.createTransport({
                 service:"Gmail",
                 auth:{
-                    user:"sydsan1801@gmail.com",
-                    pass:"acfdqezqldjuobea",
+                    user:mail_id,
+                    pass:mail_api_pass,
                 },
             });
 
